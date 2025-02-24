@@ -1,0 +1,1 @@
+car1.display_info()
