@@ -44,7 +44,7 @@ class BankAccount:
         return "Incorrect PIN!"
 
 
-# Dictionary untuk menyimpan akun berdasarkan nama pemilik
+
 accounts = {}
 
 while True:
@@ -58,7 +58,7 @@ while True:
 
     menu = input("Select menu: ")
 
-    if menu == "1":  # List semua akun
+    if menu == "1":  # List all account
         if accounts:
             print("\nList of Accounts:")
             for name in accounts:
@@ -66,7 +66,7 @@ while True:
         else:
             print("\nNo accounts found!")
 
-    elif menu == "2":  # Membuat akun baru
+    elif menu == "2":  # Create account
         name = input("Enter account holder name: ")
         balance = int(input("Enter initial balance: "))
         pin = input("Set your 4-digit PIN: ")
@@ -94,7 +94,7 @@ while True:
         else:
             print("Account not found!")
 
-    elif menu == "5":  # Cek saldo
+    elif menu == "5":  # Checking balance
         name = input("Enter account holder name: ")
         if name in accounts:
             pin = input("Enter PIN: ")
@@ -102,7 +102,7 @@ while True:
         else:
             print("Account not found!")
 
-    elif menu == "6":  # Keluar
+    elif menu == "6":  # Exit
         print("Thank you for using our banking service!")
         break
 
