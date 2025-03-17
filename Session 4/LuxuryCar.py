@@ -62,7 +62,7 @@ for v in vehicles:
 
 # Contoh penyewaan kendaraan
 days = 3
-print("\nRental Costs for 3 Days:")
+print(f"\nRental Costs for 3 Days:")
 for v in vehicles:
     print(f"{v.brand} {v.model}: ${v.calculate_rental(days)}")
 
