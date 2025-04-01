@@ -1,0 +1,19 @@
+Enter Patient ID: 1
+Enter Patient Name: John Doe
+
+--- List of Doctors ---
+ID: 101 | Name: Dr. A | Specialization: Cardiology
+ID: 102 | Name: Dr. B | Specialization: Neurology
+
+Select Doctor ID: 101
+Patient John Doe has been assigned to Dr. A.
+
+--- List of Departments ---
+1. Cardiology
+2. Neurology
+
+Select Department Number: 1
+Patient John Doe has been assigned to the Cardiology department.
+
+Enter Medical Record ID: 501
+Enter Diagnosis: Heart Attack
