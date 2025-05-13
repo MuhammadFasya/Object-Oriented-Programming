@@ -1,0 +1,10 @@
+Sample Flow
+Enter username: james
+Enter PIN: 1234
+Login successful. Welcome, james!
+[james] Current balance: Rp 500000
+Enter amount to withdraw: 100000
+Rp 100000 withdrawn. Remaining balance: Rp 400000
+Enter recipient username: moriarty
+Enter amount to transfer: 50000
+Successfully transferred Rp 50000 to [moriarty].
